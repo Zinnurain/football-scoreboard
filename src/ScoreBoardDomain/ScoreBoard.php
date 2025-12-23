@@ -8,6 +8,10 @@ namespace App\ScoreBoardDomain;
 final class ScoreBoard
 {
     /**
+     * @var int $memberPerTeam
+     */
+    public int $memberPerTeam = 2;
+    /**
      * @var Game[]
      */
     private array $games = [];
