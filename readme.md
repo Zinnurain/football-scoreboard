@@ -3,6 +3,8 @@
 A simple Football World Cup ScoreBoard CLI project built with Symfony 8.  
 It allows starting games, updating scores, finishing games, and displaying a summary sorted by total score.
 
+This project can be run **with or without Docker**.
+
 ---
 
 ## **If Git is not installed:**
@@ -21,6 +23,8 @@ It allows starting games, updating scores, finishing games, and displaying a sum
 
 Download Git from https://git-scm.com/download/win and install.
 
+---
+
 ## **Clone the repository**
 
 [//]: # (## **1️⃣ Clone the repository**)
@@ -30,6 +34,45 @@ git clone https://github.com/Zinnurain/football-scoreboard.git
 cd football-scoreboard
 
 ## **Using Docker**
+
+#### **Install Docker Desktop (If Docker not Installed)**
+
+- **For macOS:**
+
+1. Download Docker Desktop for Mac: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+2. Open the `.dmg` file and drag Docker to Applications.
+3. Launch Docker Desktop and ensure it’s running.
+4. Verify installation:
+
+
+```docker --version```
+
+```docker-compose --version```
+
+- **For Windows:**
+
+Download Docker Desktop for Windows: https://www.docker.com/products/docker-desktop
+
+Run the installer and follow the steps.
+
+Launch Docker Desktop.
+
+Verify installation:
+
+```docker --version```
+
+```docker-compose --version```
+
+- **For Linux (Ubuntu/Debian example):**
+
+```sudo apt update
+sudo apt install docker.io docker-compose -y
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+docker-compose --version
+```
+***After successfully Installed docker or already have docker***
 
 Step 1 — Build the Docker container
 
