@@ -1,6 +1,13 @@
 services:
     app:
         build: .
+        container_name: football-scoreboard-app
+        working_dir: /app
+        tty: true
         volumes:
             - .:/app
-        tty: true
+            - app_vendor:/app/vendor
+        command: ["php", "bin/console"]
+
+volumes:
+    app_vendor:
