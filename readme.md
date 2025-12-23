@@ -3,7 +3,7 @@
 A simple Football World Cup ScoreBoard CLI project built with Symfony 8.  
 It allows starting games, updating scores, finishing games, and displaying a summary sorted by total score.
 
-This project can be run **with or without Docker**.
+This project can be run **with or without Docker**. It is intentionally implemented as a **CLI-based application** with **no UI and no web layer**, in accordance with the task guidelines (no REST API, web service, or microservice). The focus is on domain logic, code quality, and testability.
 
 ---
 
